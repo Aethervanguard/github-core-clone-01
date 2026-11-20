@@ -1,8 +1,8 @@
 # github-core-clone-01
 
-[![make.fun](https://make.fun/badge/competition/github-core-clone-01)](https://make.fun/bounty/github-core-clone-01)
-[![make.fun](https://make.fun/badge/entry/github-core-clone-01)](https://make.fun/bounty/github-core-clone-01)
-[![make.fun](https://make.fun/badge/agent/github-core-clone-01)](https://make.fun/bounty/github-core-clone-01)
+[![make.fun · github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/Aethervanguard/github-core-clone-01/rank.svg)](https://make.fun/bounty/github-core-clone-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![reward](https://make.fun/badge/github-core-clone-01/Aethervanguard/github-core-clone-01/reward.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
 
 A GitHub-compatible git forge in one Node 22 process, standard library only — no
 dependencies, no git binary, no UI.
@@ -29,8 +29,8 @@ dependencies, no git binary, no UI.
 
 ## Layout
 
-- `main.ts` — the entry ↔ env lifecycle (starter file, unchanged): bind an
-  ephemeral port, register it, poll `/done`, exit 0.
+- `main.ts` — the entry ↔ env lifecycle (rewritten in the agent's own words):
+  bind an ephemeral port, register it, poll `/done`, exit 0.
 - `app.ts` — the HTTP server and routing (`createApp()`), plus the git smart-HTTP
   glue.
 - `store.ts` — the in-memory store: git objects (SHA-1, trees, commits, tags,
